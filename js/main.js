@@ -41,7 +41,7 @@ var fonts = {
 };
 
 socket.on("connect", function(data) {
-  socket.emit("join", "general-example");
+  socket.emit("join", "app_general_example");
 });
 
 socket.on("join", function(data) {
